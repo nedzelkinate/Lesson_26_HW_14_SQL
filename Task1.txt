@@ -1,9 +1,9 @@
-#### Task 1
+#### Task 1.
 На сайте w3schools.com на странице Learn SQL: http://www.w3schools.com/sql/default.asp
 Нажать кнопку `Try it yourself`,  далее в новом окне нажать на кнопку  `Run SQL`
 Запросы для таблицы `Customers`:
 
-1. Вывести всех, кточто живет в Лондоне
+1. Вывести всех, кто живет в Лондоне
 SELECT * FROM [Customers] where City = "London"
 
 2. Выбрать имена контактов и имена заказчиков, где адрес заканчивается на 23

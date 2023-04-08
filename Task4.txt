@@ -1,4 +1,4 @@
-#### Task 4
+#### Task 4.
 На сайте w3schools.com на странице Learn SQL: http://www.w3schools.com/sql/default.asp
 Нажать кнопку `Try it yourself`,  далее в новом окне нажать на кнопку  `Run SQL`
 Запросы для таблицы `Employees`:
