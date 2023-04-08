@@ -1,0 +1,15 @@
+#### Task 4
+На сайте w3schools.com на странице Learn SQL: http://www.w3schools.com/sql/default.asp
+Нажать кнопку `Try it yourself`,  далее в новом окне нажать на кнопку  `Run SQL`
+Запросы для таблицы `Employees`:
+1. Вывести имя, фамилию и записи о сотруднике Leverling
+SELECT LastName, FirstName, Notes FROM [Employees] where LastName = "Leverling"
+
+2. Вывести информацию по работникам старше 1960 года
+SELECT * FROM [Employees]   where BirthDate < "1960-01-01"
+
+3. Вывести  дату рождения сотрудников, чьи имена начинаются на букву «А
+SELECT 	BirthDate, FirstName FROM [Employees] where FirstName LIKE "A%"
+
+4. Вывести имя, фамилию и дату рождения сотрудников, отсортировав по дате рождения по возрастанию
+SELECT 	FirstName, LastName, BirthDate FROM [Employees] ORDER BY BirthDate

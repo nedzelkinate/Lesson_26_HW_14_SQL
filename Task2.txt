@@ -1,0 +1,22 @@
+#### Task 2
+На сайте w3schools.com на странице Learn SQL: http://www.w3schools.com/sql/default.asp
+Нажать кнопку `Try it yourself`,  далее в новом окне нажать на кнопку  `Run SQL`
+Запросы для таблицы `Products`:
+
+1. Выбрать все продукты, начинающиеся на букву «М»
+SELECT * FROM [Products] where ProductName LIKE "m%"
+
+2. Вывести характеристику упаковки (unit) для товара Steeleye Stout
+SELECT ProductName, Unit FROM [Products] where ProductName = "Steeleye Stout"
+
+3. Вывести названия товаров, цена которых выше 22
+SELECT ProductName, Price FROM [Products] where Price > "22"
+
+4. Вывести товары, в которых вес упаковки составляет 500 или 250 g
+SELECT * FROM [Products]  where Unit LIKE "%250 g pkgs%" or Unit LIKE "%500 g pkgs%"
+
+5. Вывести товары, упаковка которых состоит из «bottles»
+SELECT * FROM [Products] where Unit LIKE "%bottles%"
+
+6. Вывести товары, где SupplierID составляет 7 и отсортировать результаты по убыванию по цене
+SELECT * FROM [Products] where SupplierID = "7" ORDER BY Price DESC
